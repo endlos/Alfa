@@ -17,7 +17,5 @@
 *.log
 doc/
 *.swp
-*~
 .project
 .DS_Store
-
