@@ -8,7 +8,6 @@ gem 'rails', '3.2.1'
 
 #gem 'sqlite3'
 #gem 'sqlite3', '1.3.3'
-gem 'pg'
 
 gem 'json'
 
@@ -40,3 +39,8 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'ruby-debug'
+
+group :production do
+  # gems for HEROKU
+  gem "pg"
+end
